@@ -1,0 +1,11 @@
+# Ejercicio multiples productores y consumidores Buffer LIFO sin espera urgente
+g++ -std=c++11 -pthread -Wfatal-errors prodconsLIFO_SC.cpp -o prodconsLIFO_SC.exe
+
+# Ejercicio multiples productores y consumidores Buffer LIFO con espera urgente
+g++ -std=c++11 -pthread -Wfatal-errors prodconsLIFO_SU.cpp HoareMonitor.cpp Semaphore.cpp -o prodconsLIFO_SU.exe
+
+# Ejercicio multiples productores y consumidores Buffer FIFO sin espera urgente
+g++ -std=c++11 -pthread -Wfatal-errors prodconsFIFO_SC.cpp -o prodconsFIFO_SC.exe
+
+# Ejercicio multiples productores y consumidores Buffer FIFO con espera urgente
+g++ -std=c++11 -pthread -Wfatal-errors prodconsFIFO_SU.cpp HoareMonitor.cpp Semaphore.cpp -o prodconsFIFO_SU.exe

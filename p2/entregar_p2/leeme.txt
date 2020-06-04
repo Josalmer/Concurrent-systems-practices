@@ -1,0 +1,8 @@
+# Ejercicio fumadores
+g++ -std=c++11 -pthread -Wfatal-errors fumadores.cpp HoareMonitor.cpp Semaphore.cpp -o fumadores.exe
+
+# Ejercicio fumadores
+g++ -std=c++11 -pthread -Wfatal-errors fumadores2.cpp HoareMonitor.cpp Semaphore.cpp -o fumadores2.exe
+
+# Ejercicio barberoDurmiente
+g++ -std=c++11 -pthread -Wfatal-errors barberoDurmiente.cpp HoareMonitor.cpp Semaphore.cpp -o barberoDurmiente.exe
